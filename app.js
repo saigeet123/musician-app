@@ -11,7 +11,7 @@ const port = process.env.PORT || 3001;
 
 app.use('/musician', musicianRoutes);
 
-app.use(express.static('public'));
+app.use(express.static('public')):
 
 
 app.get('*', (req, res) => {
